@@ -1,6 +1,5 @@
 package game;
 
-
 import enums.Players;
 import enums.Status;
 import model.Board;

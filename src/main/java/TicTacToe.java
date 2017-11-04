@@ -7,9 +7,9 @@ import model.Board;
 
 public class TicTacToe {
 
-    private Board gameBoard;
-    private Status gameStatus;
-    private Players currentPlayer;
+    public Board gameBoard;
+    public Status gameStatus;
+    public Players currentPlayer;
 
     public TicTacToe() {
         gameBoard = SetUp.gameBoardSetUp();

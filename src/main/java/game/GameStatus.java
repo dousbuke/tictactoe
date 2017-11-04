@@ -7,7 +7,7 @@ import model.Board;
 public class GameStatus {
 
     public static Status gameStatusCheck(Players players, Board board) {
-        if (board.isWon(players)) {
+        if (board.checkForWin(players, board.size)) {
             if (players == Players.X) {
                 return Status.X_WIN;
             } else if (players == Players.O) {
